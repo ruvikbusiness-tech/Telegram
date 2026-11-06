@@ -2,6 +2,9 @@ name: Build NeZapretGram
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - redesign/nezapretgram-ui
 
 jobs:
   build:
